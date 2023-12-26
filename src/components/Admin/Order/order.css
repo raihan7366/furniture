@@ -1,0 +1,19 @@
+/* In your component's CSS or an external CSS file */
+.table-scrollable {
+    width: 100%;
+    max-width: 100%;
+    /* Ensure the table doesn't overflow its container */
+    overflow-x: auto;
+    /* Add horizontal scrolling when needed */
+    display: block;
+    /* Set the table to a block element to enable scrolling */
+}
+
+/* Add a fixed header for better user experience */
+.table-scrollable thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    /* Adjust the background color as needed */
+}
